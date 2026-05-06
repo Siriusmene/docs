@@ -1,18 +1,19 @@
 import { defineConfig } from "vocs";
-import viteConfig from "./utils";
 import { guidesSidebar } from "./sidebars/guides";
 import {
-	platformSidebar,
 	bundlerSidebar,
 	paymasterSidebar,
 	// flashFundSidebar,
 	permissionlessSidebar,
-	permissionlessWagmiSidebar,
 	permissionlessSidebar0Point1,
+	permissionlessWagmiSidebar,
+	platformSidebar,
 } from "./sidebars/references";
+import viteConfig from "./utils";
 
 export default defineConfig({
 	title: "Pimlico",
+	llms: { generateMarkdown: true },
 	logoUrl: { light: "/pimlico-purple.svg", dark: "/pimlico-white.svg" },
 	iconUrl: "/favicons/favicon.svg",
 	titleTemplate: "%s | Pimlico Docs",
