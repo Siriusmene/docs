@@ -51,12 +51,12 @@ export const eip7702Sidebar = [
 
 export const tutorialSidebar = [
 	{
-		text: "Batch multiple transactions from a smart account",
-		link: "/guides/tutorials/send-transaction",
-	},
-	{
 		text: "Send your first gasless transaction",
 		link: "/guides/tutorials/tutorial-1",
+	},
+	{
+		text: "Batch multiple transactions from a smart account",
+		link: "/guides/tutorials/send-transaction",
 	},
 	{
 		text: "Submit a user operation with an ERC-20 Paymaster",
@@ -142,10 +142,6 @@ export const accountsSidebar = [
 ];
 
 export const verifyingPaymasterSidebar = [
-	{
-		text: "Update your app to sponsor gas fees",
-		link: "/guides/how-to/dapp-gas-sponsorship",
-	},
 	{
 		text: "Extending sponsorship duration",
 		link: "/guides/how-to/paymasters/extending-sponsorship-duration",
